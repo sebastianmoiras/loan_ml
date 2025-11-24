@@ -22,8 +22,8 @@ class LoanData(BaseModel):
     credit_score: float
     previous_loan_defaults_on_file: str
 
-preprocessor = joblib.load("../model/preprocessor.pkl")
-model = joblib.load("../model/best_xgb.pkl")
+preprocessor = joblib.load("model/preprocessor.pkl")
+model = joblib.load("model/best_xgb.pkl")
 
 @app.get("/")
 def home():
