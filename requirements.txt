@@ -5,3 +5,4 @@ joblib
 xgboost
 psycopg2-binary
 python-dotenv
+scikit-learn
